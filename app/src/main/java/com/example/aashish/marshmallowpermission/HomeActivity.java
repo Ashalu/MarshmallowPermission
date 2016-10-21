@@ -22,7 +22,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         switch(view.getId())
         {
             case R.id.btn_permission:
-                
+
         }
 
     }
