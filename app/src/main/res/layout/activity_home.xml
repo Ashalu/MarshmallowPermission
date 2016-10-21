@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aashish.marshmallowpermission.HomeActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/images"
+    android:id="@+id/imageview"
+    android:scaleType="fitStart"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:text="Permission"
+        android:textColor="#fff"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/imageview"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btn_permission"
+        android:layout_height="75dp"
+        />
+
+
+</RelativeLayout>
